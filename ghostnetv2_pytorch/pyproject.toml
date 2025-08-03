@@ -1,0 +1,13 @@
+[project]
+name = "ghostnetv2-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.6.2"
+dependencies = [
+    "numpy < 2",
+    "pyyaml>=6.0.1",
+    "timm==0.3.2",
+    "torch==1.7.1",
+    "torchvision==0.8.2",
+]
